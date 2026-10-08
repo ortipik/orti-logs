@@ -1,0 +1,49 @@
+# ----------------------------------------------------------------------
+# orti-logs — fichiers a ne jamais publier
+# ----------------------------------------------------------------------
+# Le script travaille sur /var/log/lighttpd/ (hors depot) : ce qui suit
+# protege uniquement les copies de travail et tests faits DANS le dossier
+# du projet — un access.log reel contient des IP de visiteurs, jamais
+# quelque chose a pousser sur un depot public.
+
+# Logs reels ou copies de test
+*.log
+*.log.*
+access.log*
+error.log*
+*.gz
+*.xz
+*.bz2
+
+# Sauvegardes produites par le script (BACKUP_DIR) si copiees en local
+backups/
+/sauvegardes/
+*.tar
+*.tar.gz
+*.tgz
+
+# Sauvegardes d'editeur (vim/gedit/nano : README.md~, orti-logs.sh~...)
+*~
+*.bak
+*.orig
+.*.swp
+*.swp
+*.swo
+
+# Configuration d'editeur / IDE
+.vscode/
+.idea/
+
+# Secrets et reglages locaux
+.env
+*.local
+*.secret
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# Archives de release
+*.zip
