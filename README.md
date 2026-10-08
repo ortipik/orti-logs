@@ -298,7 +298,7 @@ Distribué sous licence **MIT**. Voir [LICENSE](LICENSE).
 
 **Ortipik** — pour [OMEGA-server](https://kraynux.snake-mackarel.ts.net) 
 
-- 🌐 Page : [orti-log](https://kraynux.snake-mackarel.ts.net/public/scripts/Logs-manager-webserver-access.html)
+- 🌐 Page : [orti-log](https://kraynux.snake-mackarel.ts.net/orti-logs/)
 - 🐙 GitHub : [@Ortipik](https://github.com/Ortipik)
 
 ---
